@@ -45,6 +45,7 @@ small_font = pygame.font.Font(None, 36)
 game_over = False
 winner = ""
 game_started = False
+paused = False
 difficulty = "medium"  # Default difficulty
 ai_speed = 5  # Default AI speed for medium difficulty
 
@@ -71,6 +72,9 @@ while running:
         if event.type == KEYDOWN:
             if event.key == K_ESCAPE:
                 running = False
+            # Toggle pause when P key is pressed, but only if game has started and not over
+            if event.key == K_p and game_started and not game_over:
+                paused = not paused
                 
         # Handle mouse clicks on difficulty buttons
         if event.type == MOUSEBUTTONDOWN and not game_started:
@@ -111,8 +115,8 @@ while running:
         instruction_text = small_font.render("Click to select difficulty", True, white)
         screen.blit(instruction_text, (width//2 - instruction_text.get_width()//2, height - 100))
         
-    # Game logic (only executes if game is started and not over)
-    elif not game_over:
+    # Game logic (only executes if game is started, not over, and not paused)
+    elif not game_over and not paused:
         # AI difficulty affects paddle speed
         # For easy, the AI will sometimes make mistakes
         if difficulty == "easy":
@@ -210,10 +214,10 @@ while running:
             reset_ball()
 
         # **Check if someone scores over 30 points**
-        if left_score > 30:
+        if left_score > 10:
             winner = "Computer Wins!"
             game_over = True
-        elif right_score > 30:
+        elif right_score > 10:
             winner = "Player Wins!"
             game_over = True
 
@@ -236,6 +240,28 @@ while running:
         diff_text = small_font.render(f"Difficulty: {difficulty.capitalize()}", True, diff_color)
         screen.blit(diff_text, (width//2 - diff_text.get_width()//2, 10))
         
+        # Display pause hint
+        pause_hint = small_font.render("Press P to pause", True, gray)
+        screen.blit(pause_hint, (width//2 - pause_hint.get_width()//2, height - 30))
+        
+    # Pause screen
+    elif paused and game_started and not game_over:
+        # Create semi-transparent overlay
+        overlay = pygame.Surface((width, height), pygame.SRCALPHA)
+        overlay.fill((0, 0, 0, 128))  # Black with alpha
+        screen.blit(overlay, (0, 0))
+        
+        # Draw pause text
+        pause_text = font.render("PAUSED", True, white)
+        screen.blit(pause_text, (width//2 - pause_text.get_width()//2, height//2 - pause_text.get_height()//2))
+        
+        # Draw controls reminder
+        resume_text = small_font.render("Press P to resume", True, white)
+        screen.blit(resume_text, (width//2 - resume_text.get_width()//2, height//2 + 50))
+        
+        quit_text = small_font.render("Press ESC to quit", True, white)
+        screen.blit(quit_text, (width//2 - quit_text.get_width()//2, height//2 + 90))
+    
     elif game_over:
         # Draw win message centered on screen
         screen.fill(black)
