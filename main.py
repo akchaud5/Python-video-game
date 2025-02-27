@@ -413,10 +413,10 @@ while running:
                 reset_ball()
 
             # **Check if someone scores over 30 points**
-            if left_score > 30:
+            if left_score > 7:
                 winner = "Computer Wins!"
                 game_over = True
-            elif right_score > 30:
+            elif right_score > 7:
                 winner = "Player Wins!"
                 game_over = True
         else:
