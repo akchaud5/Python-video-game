@@ -114,6 +114,15 @@ while running:
             # Toggle pause when P key is pressed, but only if game has started and not over
             if event.key == K_p and game_started and not game_over:
                 paused = not paused
+            # Return to home screen when H key is pressed
+            if event.key == K_h and game_started:
+                game_started = False
+                game_over = False
+                paused = False
+                settings_screen = False
+                left_score = 0
+                right_score = 0
+                reset_ball()
                 
         # Handle mouse clicks on buttons
         if event.type == MOUSEBUTTONDOWN:
@@ -434,8 +443,8 @@ while running:
         diff_text = small_font.render(f"Difficulty: {difficulty.capitalize()}", True, diff_color)
         screen.blit(diff_text, (width//2 - diff_text.get_width()//2, 10))
         
-        # Display pause hint
-        pause_hint = small_font.render("Press P to pause", True, gray)
+        # Display control hints
+        pause_hint = small_font.render("Press P to pause | H for Home", True, gray)
         screen.blit(pause_hint, (width//2 - pause_hint.get_width()//2, height - 30))
         
         # Additional instructions for practice mode
@@ -458,8 +467,11 @@ while running:
         resume_text = small_font.render("Press P to resume", True, white)
         screen.blit(resume_text, (width//2 - resume_text.get_width()//2, height//2 + 50))
         
+        home_text = small_font.render("Press H for home screen", True, white)
+        screen.blit(home_text, (width//2 - home_text.get_width()//2, height//2 + 90))
+        
         quit_text = small_font.render("Press ESC to quit", True, white)
-        screen.blit(quit_text, (width//2 - quit_text.get_width()//2, height//2 + 90))
+        screen.blit(quit_text, (width//2 - quit_text.get_width()//2, height//2 + 130))
     
     elif game_over:
         # Draw win message centered on screen
@@ -471,6 +483,10 @@ while running:
         diff_color = green if difficulty == "easy" else yellow if difficulty == "medium" else red
         diff_text = small_font.render(f"Difficulty: {difficulty.capitalize()}", True, diff_color)
         screen.blit(diff_text, (width//2 - diff_text.get_width()//2, height//2 + 50))
+        
+        # Home screen option
+        home_text = small_font.render("Press H to return to home screen", True, white)
+        screen.blit(home_text, (width//2 - home_text.get_width()//2, height//2 + 100))
 
     pygame.display.flip()
     clock.tick(60)
