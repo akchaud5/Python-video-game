@@ -1,6 +1,7 @@
 import pygame
 from pygame.locals import *
 import random
+import sys
 
 # Initialize Pygame
 pygame.init()
@@ -78,13 +79,16 @@ def reset_ball():
     ball_speed_y = random.randint(-int(ball_base_speed), int(ball_base_speed)) * ball_speed_multiplier
 
 # Create difficulty button rectangles
-easy_button = pygame.Rect(width//2 - 150, height//2 - 90, 300, 50)
-medium_button = pygame.Rect(width//2 - 150, height//2 - 30, 300, 50)
-hard_button = pygame.Rect(width//2 - 150, height//2 + 30, 300, 50)
-practice_button = pygame.Rect(width//2 - 150, height//2 + 90, 300, 50)
+easy_button = pygame.Rect(width//2 - 150, height//2 - 120, 300, 50)
+medium_button = pygame.Rect(width//2 - 150, height//2 - 60, 300, 50)
+hard_button = pygame.Rect(width//2 - 150, height//2, 300, 50)
+practice_button = pygame.Rect(width//2 - 150, height//2 + 60, 300, 50)
+
+# Multiplayer button
+multiplayer_button = pygame.Rect(width//2 - 150, height//2 + 120, 300, 50)
 
 # Settings button and sliders
-settings_button = pygame.Rect(width//2 - 150, height//2 + 130, 300, 40)
+settings_button = pygame.Rect(width//2 - 150, height//2 + 180, 300, 40)
 back_button = pygame.Rect(width//2 - 150, height - 100, 300, 40)
 
 # Sliders for physics settings
@@ -150,6 +154,12 @@ while running:
                     ai_speed = 5
                     game_started = True
                     practice_mode = True
+                elif multiplayer_button.collidepoint(mouse_pos):
+                    # Launch the multiplayer game
+                    pygame.quit()
+                    import subprocess
+                    subprocess.Popen([sys.executable, "multiplayer.py"])
+                    sys.exit()
                 elif settings_button.collidepoint(mouse_pos):
                     settings_screen = True
             
@@ -223,6 +233,11 @@ while running:
         pygame.draw.rect(screen, (100, 100, 255), practice_button)  # Light blue
         practice_text = small_font.render("Practice Mode", True, black)
         screen.blit(practice_text, (practice_button.centerx - practice_text.get_width()//2, practice_button.centery - practice_text.get_height()//2))
+        
+        # Multiplayer button
+        pygame.draw.rect(screen, (255, 100, 100), multiplayer_button)  # Light red
+        multiplayer_text = small_font.render("Multiplayer Mode", True, black)
+        screen.blit(multiplayer_text, (multiplayer_button.centerx - multiplayer_text.get_width()//2, multiplayer_button.centery - multiplayer_text.get_height()//2))
         
         # Settings button
         pygame.draw.rect(screen, gray, settings_button)

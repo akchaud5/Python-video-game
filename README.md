@@ -1,6 +1,6 @@
 # Ping Pong Game
 
-A customizable Ping Pong game built with Pygame featuring AI difficulty levels, customizable physics, and practice mode.
+A customizable Ping Pong game built with Pygame featuring AI difficulty levels, customizable physics, practice mode, and network multiplayer.
 
 ## Features
 
@@ -21,15 +21,27 @@ A customizable Ping Pong game built with Pygame featuring AI difficulty levels, 
   - Ball control adjustments (speed and direction)
   - Reset ball position at any time
 
+- **Network Multiplayer**
+  - Play against others over a network
+  - Real-time synchronization
+  - Player vs Player gameplay
+
 - **Game Controls**
   - **↑/↓**: Move paddle up/down
   - **P**: Pause/unpause game
   - **ESC**: Quit game
+  - **H**: Return to home screen
   
   Practice Mode:
   - **SPACE**: Reset ball position
   - **W/S**: Adjust vertical ball speed
   - **A/D**: Adjust horizontal ball speed
+  
+  Multiplayer Mode:
+  - **Player 1**: W/S keys to move
+  - **Player 2**: Arrow Up/Down to move
+  - **SPACE**: Ready up
+  - **R**: Restart after game over
 
 ## Requirements
 
@@ -55,17 +67,47 @@ A customizable Ping Pong game built with Pygame featuring AI difficulty levels, 
 
 ## Running the Game
 
+### Single Player
 Run the game using Python:
 ```
 python main.py
 ```
 
+### Multiplayer
+
+1. Start the server on one computer:
+   ```
+   python server.py
+   ```
+
+2. Start the multiplayer client on each player's computer:
+   ```
+   python multiplayer.py
+   ```
+   
+   By default, the game connects to localhost. To connect to a remote server,
+   edit the server address in network.py.
+
+## Building Standalone Executables
+
+This project includes a build script to create standalone executables using PyInstaller:
+
+1. Run the build script:
+   ```
+   python build.py
+   ```
+
+2. Select option 1 to create executables
+3. Find the executables in the 'dist' directory
+
 ## Game Rules
 
-- In normal mode, the first player to reach 31 points wins
+- In single player mode, the first player to reach 8 points wins
+- In multiplayer mode, the first player to reach 8 points wins
 - The ball bounces off paddles and walls
 - Ball speed gradually increases during play
 - Ball direction changes based on where it hits the paddle
+- Practice mode has no scoring and allows for ball control practice
 
 ## Physics Customization
 
