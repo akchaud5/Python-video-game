@@ -214,7 +214,7 @@ while running:
     if not game_started and not settings_screen:
         screen.fill(black)
         title_text = font.render("Select Mode", True, white)
-        screen.blit(title_text, (width//2 - title_text.get_width()//2, height//4))
+        screen.blit(title_text, (width//2 - title_text.get_width()//2, height//6))  # Moved up from height//4
         
         # Draw buttons
         pygame.draw.rect(screen, green, easy_button)
@@ -245,7 +245,7 @@ while running:
         screen.blit(settings_text, (settings_button.centerx - settings_text.get_width()//2, settings_button.centery - settings_text.get_height()//2))
         
         instruction_text = small_font.render("Click to select mode", True, white)
-        screen.blit(instruction_text, (width//2 - instruction_text.get_width()//2, height - 100))
+        screen.blit(instruction_text, (width//2 - instruction_text.get_width()//2, height - 50))
     
     # Display physics settings screen
     elif settings_screen:
