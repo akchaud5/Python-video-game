@@ -2,6 +2,35 @@ import pygame
 from pygame.locals import *
 import sys
 from network import Network
+import pickle  # Import pickle for serialization
+
+# Create a local GameState class that matches the server's GameState
+class GameState:
+    def __init__(self):
+        # Screen dimensions
+        self.width = 800
+        self.height = 600
+        
+        # Paddle dimensions
+        self.paddle_width = 20
+        self.paddle_height = 100
+        
+        # Default paddle positions 
+        self.left_paddle_y = self.height // 2 - self.paddle_height // 2
+        self.right_paddle_y = self.height // 2 - self.paddle_height // 2
+        
+        # Ball settings
+        self.ball_size = 20
+        self.ball_x = self.width // 2 - self.ball_size // 2
+        self.ball_y = self.height // 2 - self.ball_size // 2
+        
+        # Scores
+        self.left_score = 0
+        self.right_score = 0
+        
+        # Game status
+        self.game_active = False
+        self.winner = ""
 
 # Initialize Pygame
 pygame.init()
@@ -116,6 +145,9 @@ def main():
         player_id = network.player_id
         connecting = False
         waiting_for_opponent = True
+        
+        # Initialize the game_state attribute
+        network.game_state = GameState()
     
     # Main game loop
     clock = pygame.time.Clock()
@@ -143,6 +175,8 @@ def main():
                         player_id = network.player_id
                         connecting = False
                         waiting_for_opponent = True
+                        # Initialize the game_state attribute
+                        network.game_state = GameState()
                         
                 # Handle ready state
                 if waiting_for_opponent and event.key == K_SPACE and not ready_sent:
