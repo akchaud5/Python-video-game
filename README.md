@@ -47,6 +47,7 @@ A customizable Ping Pong game built with Pygame featuring AI difficulty levels, 
 
 - Python 3.x
 - Pygame library
+- Netifaces library (for network detection)
 
 ## Installation
 
@@ -62,7 +63,19 @@ A customizable Ping Pong game built with Pygame featuring AI difficulty levels, 
 
 3. Install the required dependencies:
    ```
-   pip install pygame
+   pip install -r requirements.txt
+   ```
+   
+   Or install manually:
+   ```
+   pip install pygame netifaces
+   ```
+   
+4. Set up a virtual environment (optional but recommended):
+   ```
+   python -m venv myenv
+   source myenv/bin/activate  # On Windows: myenv\Scripts\activate
+   pip install -r requirements.txt
    ```
 
 ## Running the Game
@@ -76,23 +89,39 @@ python main.py
 
 To play multiplayer mode across different computers:
 
-1. Start the server on one computer:
+1. **Network Requirements:**
+   - Both devices must be on the same network
+   - **Important:** Many public WiFi networks block device-to-device communication
+   - For best results, use a personal hotspot (like a phone's 5G/4G hotspot) to connect both devices
+   - Corporate or university networks often block the required ports
+
+2. Start the server on one computer:
    ```
    python server.py
    ```
    - Note the IP address displayed when the server starts 
+   - The server will clearly show a "RECOMMENDED CONNECTION ADDRESS" to use
    - You can also find the local IP address using `ifconfig` (Mac/Linux) or `ipconfig` (Windows)
 
-2. On each player's computer:
+3. On each player's computer:
    - Run the game: `python main.py`
    - From the main menu, select "Multiplayer Mode"
    - Enter the server's IP address when prompted
      - Use "localhost" if playing on the same computer as the server
-     - Use the server's IP address if playing on a different computer
+     - Use the server's IP address (from step 2) if playing on a different computer
 
-3. The first player to connect gets the left paddle, the second player gets the right paddle
-4. Game will begin automatically once both players are connected
-5. If someone disconnects, the game will pause until both players are connected again
+4. Game Setup:
+   - The first player to connect gets the left paddle, the second player gets the right paddle
+   - Game will begin automatically once both players are connected
+   - If a connection fails, the game will display an error message
+   - If someone disconnects, the game will pause until both players are connected again
+
+5. **Troubleshooting:**
+   - If connection fails on a public WiFi network, try creating a personal hotspot with your phone
+   - Make sure both devices are connected to the same network
+   - Try restarting the server and clients
+   - Check for any security software that might be blocking the connection
+   - Detailed connection logs are stored in network_debug.log and server_debug.log
 
 For playing over the internet (outside your local network):
 1. The server host needs to:
