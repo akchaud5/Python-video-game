@@ -212,7 +212,13 @@ class Server:
                     
                     elif data == "restart":
                         log(f"Player {player_id} requested game restart")
+                        # Restart the game and make sure game_running is true
                         self.game_state.start_game()
+                        
+                        # If game thread is not running, restart it
+                        if not self.game_running:
+                            log("Restarting game thread after restart request")
+                            self.start_game_thread()
                     
                     elif data is not None:  # Regular paddle update
                         # Update paddle position based on player

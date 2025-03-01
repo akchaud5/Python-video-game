@@ -507,7 +507,17 @@ def run_multiplayer_mode():
                 if event.key == K_ESCAPE:
                     multiplayer_running = False
                 if event.key == K_r and game_state.winner:  # Restart after game over
+                    # Show restart message
+                    restart_msg = multiplayer_small_font.render("Restarting game...", True, (100, 255, 100))
+                    screen.fill(black)
+                    screen.blit(restart_msg, (width//2 - restart_msg.get_width()//2, height//2))
+                    pygame.display.flip()
+                    
+                    # Send restart command
                     game_state = n.send("restart")
+                    
+                    # Force a small delay to ensure the game restarts properly
+                    pygame.time.delay(200)
         
         # Get paddle movement from keyboard
         keys = pygame.key.get_pressed()
