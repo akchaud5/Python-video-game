@@ -2,6 +2,250 @@ import pygame
 from pygame.locals import *
 import random
 import sys
+import socket
+import pickle
+import threading
+import time
+
+# Import network module for multiplayer
+from network import Network
+
+# Server class for multiplayer host
+class GameState:
+    def __init__(self):
+        # Screen dimensions
+        self.width = 800
+        self.height = 600
+        
+        # Paddle dimensions
+        self.paddle_width = 20
+        self.paddle_height = 100
+        
+        # Default paddle positions 
+        self.left_paddle_y = self.height // 2 - self.paddle_height // 2
+        self.right_paddle_y = self.height // 2 - self.paddle_height // 2
+        
+        # Ball settings
+        self.ball_size = 20
+        self.ball_x = self.width // 2 - self.ball_size // 2
+        self.ball_y = self.height // 2 - self.ball_size // 2
+        self.ball_speed_x = 5 * random.choice([-1, 1])
+        self.ball_speed_y = random.randint(-5, 5)
+        
+        # Scores
+        self.left_score = 0
+        self.right_score = 0
+        
+        # Game status
+        self.game_active = False
+        self.winner = ""
+
+    def update_ball(self):
+        if not self.game_active:
+            return
+            
+        # Move the ball
+        self.ball_x += self.ball_speed_x
+        self.ball_y += self.ball_speed_y
+        
+        # Ball collision with top and bottom walls
+        if self.ball_y <= 0:
+            self.ball_y = 0
+            self.ball_speed_y = -self.ball_speed_y
+        elif self.ball_y + self.ball_size >= self.height:
+            self.ball_y = self.height - self.ball_size
+            self.ball_speed_y = -self.ball_speed_y
+            
+        # Check for paddle collisions
+        # Left paddle collision
+        if (self.ball_x <= 50 + self.paddle_width and 
+            self.ball_x + self.ball_size >= 50 and 
+            self.ball_y + self.ball_size >= self.left_paddle_y and 
+            self.ball_y <= self.left_paddle_y + self.paddle_height):
+            
+            hit_pos = (self.ball_y + self.ball_size/2 - (self.left_paddle_y + self.paddle_height/2)) / (self.paddle_height/2)
+            self.ball_speed_y = hit_pos * 5
+            self.ball_speed_x = -self.ball_speed_x
+            self.ball_x = 50 + self.paddle_width + 1
+            
+        # Right paddle collision
+        if (self.ball_x + self.ball_size >= self.width - 50 - self.paddle_width and 
+            self.ball_x <= self.width - 50 and
+            self.ball_y + self.ball_size >= self.right_paddle_y and 
+            self.ball_y <= self.right_paddle_y + self.paddle_height):
+            
+            hit_pos = (self.ball_y + self.ball_size/2 - (self.right_paddle_y + self.paddle_height/2)) / (self.paddle_height/2)
+            self.ball_speed_y = hit_pos * 5
+            self.ball_speed_x = -self.ball_speed_x
+            self.ball_x = self.width - 50 - self.paddle_width - self.ball_size - 1
+            
+        # Scoring
+        if self.ball_x <= 0:
+            self.right_score += 1
+            self.reset_ball()
+        elif self.ball_x + self.ball_size >= self.width:
+            self.left_score += 1
+            self.reset_ball()
+            
+        # Check win condition
+        if self.left_score > 7:
+            self.winner = "Player 1 Wins!"
+            self.game_active = False
+        elif self.right_score > 7:
+            self.winner = "Player 2 Wins!"
+            self.game_active = False
+
+    def reset_ball(self):
+        self.ball_x = self.width // 2 - self.ball_size // 2
+        self.ball_y = self.height // 2 - self.ball_size // 2
+        self.ball_speed_x = 5 * random.choice([-1, 1])
+        self.ball_speed_y = random.randint(-5, 5)
+
+    def start_game(self):
+        self.left_score = 0
+        self.right_score = 0
+        self.reset_ball()
+        self.winner = ""
+        self.game_active = True
+
+class Server:
+    def __init__(self, host='', port=5555):
+        self.server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        self.server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+        
+        self.host = host
+        self.port = port
+        
+        try:
+            self.server.bind((self.host, self.port))
+        except socket.error as e:
+            print(f"Socket Binding error: {e}")
+            
+        self.server.listen(2)
+        print(f"Server started, waiting for connection on port {self.port}...")
+        
+        self.connections = {}
+        self.players_ready = set()
+        self.game_state = GameState()
+        self.game_thread = None
+        self.game_running = False
+
+    def handle_client(self, conn, player_id):
+        # Send initial player ID
+        conn.send(pickle.dumps(player_id))
+        
+        try:
+            while True:
+                try:
+                    # Receive paddle position from client
+                    data = conn.recv(2048)
+                    if not data:  # Connection closed
+                        print(f"No data received from Player {player_id}")
+                        break
+                        
+                    data = pickle.loads(data)
+                    
+                    if data == "ready":
+                        print(f"Player {player_id} is ready")
+                        self.players_ready.add(player_id)
+                        print(f"Ready players: {self.players_ready}")
+                        # If both players are ready, start the game
+                        if len(self.players_ready) == 2 and not self.game_running:
+                            print("Both players ready! Starting game...")
+                            self.start_game_thread()
+                    
+                    elif data == "restart":
+                        self.game_state.start_game()
+                    
+                    elif data is not None:  # Regular paddle update
+                        # Update paddle position based on player
+                        if player_id == 0:  # Player 1 (left paddle)
+                            self.game_state.left_paddle_y = data
+                        else:  # Player 2 (right paddle)
+                            self.game_state.right_paddle_y = data
+                    
+                    # Send current game state to the client
+                    conn.send(pickle.dumps(self.game_state))
+                    
+                except ConnectionResetError:
+                    print(f"Connection reset by Player {player_id}")
+                    break
+                except Exception as e:
+                    print(f"Error in client handler: {e}")
+                    break
+                    
+        finally:
+            print(f"Player {player_id} disconnected")
+            if player_id in self.players_ready:
+                self.players_ready.remove(player_id)
+            if player_id in self.connections and self.connections[player_id] == conn:
+                del self.connections[player_id]
+            try:
+                conn.close()
+            except:
+                pass
+            
+    def start_game_thread(self):
+        print("Starting game thread - setting game_active to True")
+        self.game_running = True
+        self.game_state.start_game()
+        print(f"Game state is now: active={self.game_state.game_active}, ball_pos=({self.game_state.ball_x}, {self.game_state.ball_y})")
+        self.game_thread = threading.Thread(target=self.game_loop)
+        self.game_thread.daemon = True
+        self.game_thread.start()
+        print("Game thread started successfully")
+        
+    def game_loop(self):
+        last_time = time.time()
+        loop_count = 0
+        
+        while self.game_running:
+            loop_count += 1
+            if loop_count % 60 == 0:  # Log every second (assuming 60 FPS)
+                print(f"Game loop running. Ball position: ({self.game_state.ball_x}, {self.game_state.ball_y})")
+            
+            # Check if we have two players connected
+            if len(self.connections) < 2:
+                print("Game paused: waiting for two players")
+                time.sleep(1)  # Check every second
+                continue
+                
+            # Control game speed (60 FPS)
+            current_time = time.time()
+            dt = current_time - last_time
+            if dt < 1/60:
+                time.sleep(1/60 - dt)
+                
+            self.game_state.update_ball()
+            last_time = time.time()
+            
+            # If game is over, stop the game loop
+            if not self.game_state.game_active:
+                self.game_running = False
+                
+        print("Game loop ended")
+        self.players_ready.clear()
+        
+    def start(self):
+        current_player = 0
+        
+        while True:
+            conn, addr = self.server.accept()
+            print(f"Connected to: {addr}")
+            
+            # Only accept two players
+            if len(self.connections) < 2:
+                # If player ID is already in use, find an available ID
+                if current_player in self.connections:
+                    current_player = 0 if current_player == 1 else 1
+                
+                # Store connection and start client handler thread
+                self.connections[current_player] = conn
+                threading.Thread(target=self.handle_client, args=(conn, current_player)).start()
+                current_player = (current_player + 1) % 2
+            else:
+                print(f"Rejected connection from {addr}: server full")
+                conn.close()
 
 # Initialize Pygame
 pygame.init()
@@ -77,6 +321,166 @@ def reset_ball():
     ball.center = (width//2, height//2)
     ball_speed_x = ball_base_speed * ball_speed_multiplier * random.choice([-1, 1])
     ball_speed_y = random.randint(-int(ball_base_speed), int(ball_base_speed)) * ball_speed_multiplier
+    
+# Function to run multiplayer mode
+def run_multiplayer_mode():
+    # Set up fonts for the multiplayer mode
+    multiplayer_font = pygame.font.Font(None, 74)
+    multiplayer_small_font = pygame.font.Font(None, 36)
+    
+    # Ask for server IP if not localhost
+    server_ip = "localhost"  # Default to localhost
+    
+    # Simple dialog for server IP input
+    pygame.draw.rect(screen, black, (0, 0, width, height))
+    title_text = multiplayer_font.render("Multiplayer Setup", True, white)
+    screen.blit(title_text, (width//2 - title_text.get_width()//2, height//6))
+    
+    instruction_text = multiplayer_small_font.render("Enter Server IP (or press Enter for localhost):", True, white)
+    screen.blit(instruction_text, (width//2 - instruction_text.get_width()//2, height//3))
+    
+    input_rect = pygame.Rect(width//2 - 140, height//2 - 20, 280, 40)
+    pygame.draw.rect(screen, white, input_rect)
+    
+    # Get IP input
+    ip_input = ""
+    ip_active = True
+    pygame.key.set_repeat(500, 50)
+    
+    while ip_active:
+        for event in pygame.event.get():
+            if event.type == QUIT:
+                pygame.quit()
+                sys.exit()
+                
+            if event.type == KEYDOWN:
+                if event.key == K_RETURN:
+                    # If empty, use localhost
+                    if ip_input.strip() == "":
+                        ip_input = "localhost"
+                    ip_active = False
+                elif event.key == K_BACKSPACE:
+                    ip_input = ip_input[:-1]
+                else:
+                    # Only allow valid IP characters
+                    if event.unicode.isdigit() or event.unicode == '.' or event.unicode.isalpha():
+                        ip_input += event.unicode
+        
+        # Redraw input box
+        pygame.draw.rect(screen, white, input_rect)
+        text_surface = multiplayer_small_font.render(ip_input, True, black)
+        screen.blit(text_surface, (input_rect.x + 5, input_rect.y + 5))
+        
+        pygame.display.flip()
+        clock.tick(30)
+    
+    server_ip = ip_input
+    print(f"Connecting to server: {server_ip}")
+    
+    # Connect to the specified server
+    n = Network(server=server_ip)
+    player_id = n.player_id
+    
+    if player_id is None:
+        print("Failed to connect to server.")
+        return
+        
+    print(f"Connected to server as Player {player_id}")
+    
+    # Tell server we're ready
+    game_state = n.send("ready")
+    if game_state is None:
+        print("Failed to communicate with server")
+        n.disconnect()
+        return
+        
+    # Main game loop for multiplayer
+    multiplayer_running = True
+    multiplayer_clock = pygame.time.Clock()
+    paddle_y = height // 2 - paddle_height // 2  # Initial paddle position
+    
+    while multiplayer_running:
+        # Handle events
+        for event in pygame.event.get():
+            if event.type == QUIT:
+                multiplayer_running = False
+            if event.type == KEYDOWN:
+                if event.key == K_ESCAPE:
+                    multiplayer_running = False
+                if event.key == K_r and game_state.winner:  # Restart after game over
+                    game_state = n.send("restart")
+        
+        # Get paddle movement from keyboard
+        keys = pygame.key.get_pressed()
+        if keys[K_UP]:
+            paddle_y -= 7
+        if keys[K_DOWN]:
+            paddle_y += 7
+            
+        # Keep paddle within screen bounds
+        if paddle_y < 0:
+            paddle_y = 0
+        if paddle_y > height - paddle_height:
+            paddle_y = height - paddle_height
+            
+        # Send paddle position to server
+        game_state = n.send(paddle_y)
+        
+        if game_state is None:
+            print("Lost connection to server")
+            break
+            
+        # Draw everything
+        screen.fill(black)
+        
+        # Draw paddles based on game state
+        left_paddle_rect = pygame.Rect(50, game_state.left_paddle_y, 
+                                      game_state.paddle_width, game_state.paddle_height)
+        right_paddle_rect = pygame.Rect(width - 50 - game_state.paddle_width, 
+                                       game_state.right_paddle_y, 
+                                       game_state.paddle_width, game_state.paddle_height)
+        
+        # Highlight the player's paddle
+        if player_id == 0:  # Left player
+            pygame.draw.rect(screen, (0, 255, 255), left_paddle_rect)  # Cyan for player
+            pygame.draw.rect(screen, white, right_paddle_rect)
+        else:  # Right player
+            pygame.draw.rect(screen, white, left_paddle_rect)
+            pygame.draw.rect(screen, (0, 255, 255), right_paddle_rect)  # Cyan for player
+            
+        # Draw ball
+        ball_rect = pygame.Rect(game_state.ball_x, game_state.ball_y, 
+                               game_state.ball_size, game_state.ball_size)
+        pygame.draw.rect(screen, white, ball_rect)
+        
+        # Draw scores
+        left_text = multiplayer_font.render(str(game_state.left_score), True, white)
+        screen.blit(left_text, (width//4, 10))
+        right_text = multiplayer_font.render(str(game_state.right_score), True, white)
+        screen.blit(right_text, (3*width//4, 10))
+        
+        # Draw player info
+        if player_id == 0:
+            player_text = multiplayer_small_font.render("You are Player 1 (Left)", True, (0, 255, 255))
+        else:
+            player_text = multiplayer_small_font.render("You are Player 2 (Right)", True, (0, 255, 255))
+        screen.blit(player_text, (width//2 - player_text.get_width()//2, 10))
+        
+        # Show game status or winner
+        if not game_state.game_active and not game_state.winner:
+            waiting_text = multiplayer_small_font.render("Waiting for players to connect...", True, yellow)
+            screen.blit(waiting_text, (width//2 - waiting_text.get_width()//2, height//2))
+        elif game_state.winner:
+            win_text = multiplayer_font.render(game_state.winner, True, white)
+            screen.blit(win_text, (width//2 - win_text.get_width()//2, height//2 - 50))
+            restart_text = multiplayer_small_font.render("Press R to restart", True, white)
+            screen.blit(restart_text, (width//2 - restart_text.get_width()//2, height//2 + 50))
+        
+        pygame.display.flip()
+        multiplayer_clock.tick(60)
+    
+    # Disconnect from server
+    n.disconnect()
 
 # Create difficulty button rectangles
 easy_button = pygame.Rect(width//2 - 150, height//2 - 120, 300, 50)
@@ -155,11 +559,8 @@ while running:
                     game_started = True
                     practice_mode = True
                 elif multiplayer_button.collidepoint(mouse_pos):
-                    # Launch the multiplayer game
-                    pygame.quit()
-                    import subprocess
-                    subprocess.Popen([sys.executable, "multiplayer.py"])
-                    sys.exit()
+                    # Handle multiplayer mode directly in main.py
+                    run_multiplayer_mode()
                 elif settings_button.collidepoint(mouse_pos):
                     settings_screen = True
             

@@ -241,16 +241,5 @@ class Server:
                 conn.close()
 
 if __name__ == "__main__":
-    # Get host's IP address to display for clients
-    try:
-        import socket
-        hostname = socket.gethostname()
-        local_ip = socket.gethostbyname(hostname)
-        print(f"Server running on: {local_ip}")
-        print("If connecting from another computer on the same network, use this IP address.")
-        print("For internet connections, you'll need to use your public IP and set up port forwarding.")
-    except:
-        print("Could not determine local IP address")
-    
     server = Server()
     server.start()

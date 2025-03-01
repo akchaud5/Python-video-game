@@ -32,33 +32,9 @@ def create_executable():
         # Execute PyInstaller
         subprocess.check_call(pyinstaller_args)
         
-        # Build the server executable if needed
-        server_args = [
-            "pyinstaller",
-            "--onefile",
-            "--name=PingPongServer",
-            "server.py"
-        ]
-        subprocess.check_call(server_args)
-        
-        # Build the multiplayer client
-        multiplayer_args = [
-            "pyinstaller",
-            "--onefile",
-            "--windowed",
-            "--name=PingPongMultiplayer",
-            "multiplayer.py"
-        ]
-        if icon_path and os.path.exists(icon_path):
-            multiplayer_args.append(f"--icon={icon_path}")
-            
-        subprocess.check_call(multiplayer_args)
-        
         print("Build completed successfully!")
-        print(f"Executables can be found in the 'dist' directory:")
-        print("- PingPong (Single player game)")
-        print("- PingPongMultiplayer (Multiplayer client)")
-        print("- PingPongServer (Multiplayer server)")
+        print(f"Executable can be found in the 'dist' directory:")
+        print("- PingPong (Game with single player and multiplayer modes)")
         
     except Exception as e:
         print(f"Error creating executable: {e}")

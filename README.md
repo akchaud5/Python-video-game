@@ -1,6 +1,6 @@
 # Ping Pong Game
 
-A customizable Ping Pong game built with Pygame featuring AI difficulty levels, customizable physics, practice mode, and network multiplayer.
+A customizable Ping Pong game built with Pygame featuring AI difficulty levels, customizable physics, practice mode, and integrated network multiplayer.
 
 ## Features
 
@@ -21,9 +21,10 @@ A customizable Ping Pong game built with Pygame featuring AI difficulty levels, 
   - Ball control adjustments (speed and direction)
   - Reset ball position at any time
 
-- **Network Multiplayer**
+- **Integrated Network Multiplayer**
   - Play against others over a network
   - Real-time synchronization
+  - Host or join games directly from the main menu
   - Player vs Player gameplay
 
 - **Game Controls**
@@ -38,10 +39,9 @@ A customizable Ping Pong game built with Pygame featuring AI difficulty levels, 
   - **A/D**: Adjust horizontal ball speed
   
   Multiplayer Mode:
-  - **Player 1**: W/S keys to move
-  - **Player 2**: Arrow Up/Down to move
-  - **SPACE**: Ready up
+  - **Both Players**: Arrow Up/Down to move paddles
   - **R**: Restart after game over
+  - **ESC**: Quit to main menu
 
 ## Requirements
 
@@ -67,38 +67,53 @@ A customizable Ping Pong game built with Pygame featuring AI difficulty levels, 
 
 ## Running the Game
 
-### Single Player
 Run the game using Python:
 ```
 python main.py
 ```
 
-### Multiplayer
+### Playing Multiplayer Mode
+
+To play multiplayer mode across different computers:
 
 1. Start the server on one computer:
    ```
    python server.py
    ```
+   - Note the IP address displayed when the server starts 
+   - You can also find the local IP address using `ifconfig` (Mac/Linux) or `ipconfig` (Windows)
 
-2. Start the multiplayer client on each player's computer:
-   ```
-   python multiplayer.py
-   ```
+2. On each player's computer:
+   - Run the game: `python main.py`
+   - From the main menu, select "Multiplayer Mode"
+   - Enter the server's IP address when prompted
+     - Use "localhost" if playing on the same computer as the server
+     - Use the server's IP address if playing on a different computer
+
+3. The first player to connect gets the left paddle, the second player gets the right paddle
+4. Game will begin automatically once both players are connected
+5. If someone disconnects, the game will pause until both players are connected again
+
+For playing over the internet (outside your local network):
+1. The server host needs to:
+   - Set up port forwarding on their router for port 5555
+   - Share their public IP address (which can be found at websites like whatismyip.com)
+   - Run the server as described above
    
-   By default, the game connects to localhost. To connect to a remote server,
-   edit the server address in network.py.
+2. Players connect using the public IP address of the host
 
 ## Building Standalone Executables
 
-This project includes a build script to create standalone executables using PyInstaller:
+This project includes a build script to create a standalone executable using PyInstaller:
 
 1. Run the build script:
    ```
    python build.py
    ```
 
-2. Select option 1 to create executables
-3. Find the executables in the 'dist' directory
+2. Select option 1 to create the executable
+3. Find the executable in the 'dist' directory:
+   - PingPong: Complete game with single player and multiplayer modes
 
 ## Game Rules
 
