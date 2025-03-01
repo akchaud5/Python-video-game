@@ -419,9 +419,11 @@ def run_multiplayer_mode():
     pygame.draw.rect(screen, black, (0, 0, width, height))
     connecting_text = status_font.render(f"Connecting to {server_ip}...", True, white)
     screen.blit(connecting_text, (width//2 - connecting_text.get_width()//2, height//2))
+    connecting_hint = status_font.render("This may take up to 30 seconds...", True, (200, 200, 200))
+    screen.blit(connecting_hint, (width//2 - connecting_hint.get_width()//2, height//2 + 40))
     pygame.display.flip()
     
-    # Connect to the specified server
+    # Connect to the specified server (with standard port 5555)
     n = Network(server=server_ip)
     player_id = n.player_id
     

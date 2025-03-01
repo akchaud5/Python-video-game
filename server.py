@@ -469,7 +469,8 @@ if __name__ == "__main__":
     # Start the server
     try:
         log("\nInitializing game server...")
-        server = Server()
+        # Explicitly bind to all network interfaces (0.0.0.0)
+        server = Server(host='0.0.0.0')
         log("Server initialized, starting accept loop...")
         server.start()
     except Exception as e:

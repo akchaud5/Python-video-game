@@ -58,7 +58,9 @@ class Network:
             except Exception as e:
                 log(f"Could not resolve server IPs: {e}")
             
-            # Try connection
+            # Try connection with increased timeout
+            self.client.settimeout(30)  # 30-second timeout for connection
+            log(f"Attempting to connect to {self.addr} with 30-second timeout")
             self.client.connect(self.addr)
             log("Connection established")
             
