@@ -8,12 +8,18 @@ class Network:
         self.port = port
         self.addr = (self.server, self.port)
         self.player_id = self.connect()
-
+        
     def connect(self):
         try:
+            print(f"Attempting to connect to {self.server}:{self.port}")
             self.client.connect(self.addr)
-            return pickle.loads(self.client.recv(2048))
-        except:
+            data = self.client.recv(2048)
+            if not data:
+                print("Received empty data during connection")
+                return None
+            return pickle.loads(data)
+        except Exception as e:
+            print(f"Connection error: {e}")
             return None
 
     def send(self, data):

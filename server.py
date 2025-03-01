@@ -249,8 +249,31 @@ if __name__ == "__main__":
         print(f"Server running on: {local_ip}")
         print("If connecting from another computer on the same network, use this IP address.")
         print("For internet connections, you'll need to use your public IP and set up port forwarding.")
-    except:
-        print("Could not determine local IP address")
+        
+        # Display all available network interfaces for better troubleshooting
+        print("\nAll network interfaces:")
+        try:
+            import socket
+            import netifaces
+            for interface in netifaces.interfaces():
+                addresses = netifaces.ifaddresses(interface)
+                if netifaces.AF_INET in addresses:
+                    for link in addresses[netifaces.AF_INET]:
+                        print(f"  {interface}: {link['addr']}")
+        except ImportError:
+            print("  netifaces not installed. Install with: pip install netifaces")
+            # Fallback method using socket
+            s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+            try:
+                # Doesn't need to be reachable, just used to get local interface address
+                s.connect(('10.255.255.255', 1))
+                print(f"  Primary IP: {s.getsockname()[0]}")
+            except:
+                print("  Could not determine all network interfaces")
+            finally:
+                s.close()
+    except Exception as e:
+        print(f"Could not determine local IP address: {e}")
     
     server = Server()
     server.start()

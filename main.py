@@ -331,6 +331,24 @@ def run_multiplayer_mode():
     # Ask for server IP if not localhost
     server_ip = "localhost"  # Default to localhost
     
+    # Try to provide a default server IP suggestion from the local network
+    suggested_ip = ""
+    try:
+        # Try to get a default IP that's not localhost or 127.0.0.1
+        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        try:
+            # Doesn't need to be reachable, just used to get local interface
+            s.connect(('10.255.255.255', 1))
+            suggested_ip = s.getsockname()[0]
+            if suggested_ip == "127.0.0.1":
+                suggested_ip = ""
+        except:
+            pass
+        finally:
+            s.close()
+    except:
+        pass
+    
     # Simple dialog for server IP input
     pygame.draw.rect(screen, black, (0, 0, width, height))
     title_text = multiplayer_font.render("Multiplayer Setup", True, white)
@@ -338,6 +356,17 @@ def run_multiplayer_mode():
     
     instruction_text = multiplayer_small_font.render("Enter Server IP (or press Enter for localhost):", True, white)
     screen.blit(instruction_text, (width//2 - instruction_text.get_width()//2, height//3))
+    
+    # Display the suggested IP if we found one
+    if suggested_ip:
+        suggestion_text = multiplayer_small_font.render(f"Suggested IP: {suggested_ip}", True, (0, 255, 255))
+        screen.blit(suggestion_text, (width//2 - suggestion_text.get_width()//2, height//3 + 40))
+    
+    # Display connection explanation
+    connect_text1 = multiplayer_small_font.render("For same computer: use 'localhost'", True, (200, 200, 200))
+    connect_text2 = multiplayer_small_font.render("For different computers: use server's network IP", True, (200, 200, 200))
+    screen.blit(connect_text1, (width//2 - connect_text1.get_width()//2, height//3 + 80))
+    screen.blit(connect_text2, (width//2 - connect_text2.get_width()//2, height//3 + 110))
     
     input_rect = pygame.Rect(width//2 - 140, height//2 - 20, 280, 40)
     pygame.draw.rect(screen, white, input_rect)
@@ -376,6 +405,13 @@ def run_multiplayer_mode():
     
     server_ip = ip_input
     print(f"Connecting to server: {server_ip}")
+    
+    # Connection status display
+    status_font = multiplayer_small_font
+    pygame.draw.rect(screen, black, (0, 0, width, height))
+    connecting_text = status_font.render(f"Connecting to {server_ip}...", True, white)
+    screen.blit(connecting_text, (width//2 - connecting_text.get_width()//2, height//2))
+    pygame.display.flip()
     
     # Connect to the specified server
     n = Network(server=server_ip)
