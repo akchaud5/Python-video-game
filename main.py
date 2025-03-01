@@ -423,7 +423,199 @@ def run_multiplayer_mode():
     
     # Connect to the specified server
     n = Network(server=server_ip)
-    player_id = n.player_id
+    player_id = n.player_id# No selection was provided, so I will suggest a general improvement to the code.
+
+# Extract the game loop into a separate function for better readability and maintainability.
+def game_loop():
+    running = True
+    clock = pygame.time.Clock()
+    while running:
+        # Handle events
+        for event in pygame.event.get():
+            if event.type == QUIT:
+                running = False
+            if event.type == KEYDOWN:
+                if event.key == K_ESCAPE:
+                    running = False
+                # Toggle pause when P key is pressed, but only if game has started and not over
+                if event.key == K_p and game_started and not game_over:
+                    paused = not paused
+                # Return to home screen when H key is pressed
+                if event.key == K_h and game_started:
+                    game_started = False
+                    game_over = False
+                    paused = False
+                    settings_screen = False
+                    left_score = 0
+                    right_score = 0
+                    reset_ball()
+                    
+        # Handle mouse clicks on buttons
+        if event.type == MOUSEBUTTONDOWN:
+            mouse_pos = pygame.mouse.get_pos()
+            
+            # Main menu buttons
+            if not game_started and not settings_screen:
+                if easy_button.collidepoint(mouse_pos):
+                    difficulty = "easy"
+                    ai_speed = 3
+                    game_started = True
+                    practice_mode = False
+                elif medium_button.collidepoint(mouse_pos):
+                    difficulty = "medium"
+                    ai_speed = 5
+                    game_started = True
+                    practice_mode = False
+                elif hard_button.collidepoint(mouse_pos):
+                    difficulty = "hard"
+                    ai_speed = 7
+                    game_started = True
+                    practice_mode = False
+                elif practice_button.collidepoint(mouse_pos):
+                    difficulty = "medium"
+                    ai_speed = 5
+                    game_started = True
+                    practice_mode = True
+                elif multiplayer_button.collidepoint(mouse_pos):
+                    # Handle multiplayer mode directly in main.py
+                    run_multiplayer_mode()
+                elif settings_button.collidepoint(mouse_pos):
+                    settings_screen = True
+            
+            # Settings screen buttons
+            elif settings_screen:
+                if back_button.collidepoint(mouse_pos):
+                    settings_screen = False
+                elif gravity_toggle.collidepoint(mouse_pos):
+                    gravity_enabled = not gravity_enabled
+                    
+        # Handle slider dragging
+        if event.type == MOUSEBUTTONDOWN and settings_screen:
+            mouse_pos = pygame.mouse.get_pos()
+            # Check if any slider handle is clicked
+            if speed_handle.collidepoint(mouse_pos):
+                dragging_speed = True
+            elif bounce_handle.collidepoint(mouse_pos):
+                dragging_bounce = True
+            elif rebound_handle.collidepoint(mouse_pos):
+                dragging_rebound = True
+                
+        if event.type == MOUSEBUTTONUP:
+            # Stop dragging
+            dragging_speed = False
+            dragging_bounce = False
+            dragging_rebound = False
+            
+        # Update slider positions when dragging
+        if event.type == MOUSEMOTION:
+            mouse_pos = pygame.mouse.get_pos()
+            if settings_screen:
+                if dragging_speed:
+                    # Constrain x position to slider bounds
+                    new_x = max(speed_slider.left, min(mouse_pos[0], speed_slider.right))
+                    speed_handle.centerx = new_x
+                    # Calculate ball speed multiplier based on handle position (0.5x to 2.0x)
+                    ball_speed_multiplier = 0.5 + ((new_x - speed_slider.left) / speed_slider.width) * 1.5
+                
+                if dragging_bounce:
+                    new_x = max(bounce_slider.left, min(mouse_pos[0], bounce_slider.right))
+                    bounce_handle.centerx = new_x
+                    # Calculate bounce dampening (0.5 to 1.0)
+                    bounce_dampening = 0.5 + ((new_x - bounce_slider.left) / bounce_slider.width) * 0.5
+                
+                if dragging_rebound:
+                    new_x = max(rebound_slider.left, min(mouse_pos[0], rebound_slider.right))
+                    rebound_handle.centerx = new_x
+                    # Calculate paddle rebound strength (0.5 to 1.5)
+                    paddle_rebound_strength = 0.5 + ((new_x - rebound_slider.left) / rebound_slider.width)
+
+        # Display difficulty selection screen
+        if not game_started and not settings_screen:
+            screen.fill(black)
+            title_text = font.render("Select Mode", True, white)
+            screen.blit(title_text, (width//2 - title_text.get_width()//2, height//6))  # Moved up from height//4
+            
+            # Draw buttons
+            pygame.draw.rect(screen, green, easy_button)
+            easy_text = small_font.render("Easy", True, black)
+            screen.blit(easy_text, (easy_button.centerx - easy_text.get_width()//2, easy_button.centery - easy_text.get_height()//2))
+            
+            pygame.draw.rect(screen, yellow, medium_button)
+            medium_text = small_font.render("Medium", True, black)
+            screen.blit(medium_text, (medium_button.centerx - medium_text.get_width()//2, medium_button.centery - medium_text.get_height()//2))
+            
+            pygame.draw.rect(screen, red, hard_button)
+            hard_text = small_font.render("Hard", True, black)
+            screen.blit(hard_text, (hard_button.centerx - hard_text.get_width()//2, hard_button.centery - hard_text.get_height()//2))
+            
+            # Practice button
+            pygame.draw.rect(screen, (100, 100, 255), practice_button)  # Light blue
+            practice_text = small_font.render("Practice Mode", True, black)
+            screen.blit(practice_text, (practice_button.centerx - practice_text.get_width()//2, practice_button.centery - practice_text.get_height()//2))
+            
+            # Multiplayer button
+            pygame.draw.rect(screen, (255, 100, 100), multiplayer_button)  # Light red
+            multiplayer_text = small_font.render("Multiplayer Mode", True, black)
+            screen.blit(multiplayer_text, (multiplayer_button.centerx - multiplayer_text.get_width()//2, multiplayer_button.centery - multiplayer_text.get_height()//2))
+            
+            # Settings button
+            pygame.draw.rect(screen, gray, settings_button)
+            settings_text = small_font.render("Ball Physics Settings", True, black)
+            screen.blit(settings_text, (settings_button.centerx - settings_text.get_width()//2, settings_button.centery - settings_text.get_height()//2))
+            
+            instruction_text = small_font.render("Click to select mode", True, white)
+            screen.blit(instruction_text, (width//2 - instruction_text.get_width()//2, height - 50))
+        
+        # Display physics settings screen
+        elif settings_screen:
+            screen.fill(black)
+            title_text = font.render("Ball Physics Settings", True, white)
+            screen.blit(title_text, (width//2 - title_text.get_width()//2, height//6))
+            
+            # Update handle positions based on current settings
+            speed_handle.centerx = speed_slider.left + ((ball_speed_multiplier - 0.5) / 1.5) * speed_slider.width
+            bounce_handle.centerx = bounce_slider.left + ((bounce_dampening - 0.5) / 0.5) * bounce_slider.width
+            rebound_handle.centerx = rebound_slider.left + ((paddle_rebound_strength - 0.5) / 1.0) * rebound_slider.width
+            
+            # Gravity toggle
+            pygame.draw.rect(screen, gray, gravity_toggle)
+            gravity_color = green if gravity_enabled else red
+            gravity_status = "ON" if gravity_enabled else "OFF"
+            gravity_text = small_font.render(f"Gravity: {gravity_status}", True, gravity_color)
+            screen.blit(gravity_text, (gravity_toggle.centerx - gravity_text.get_width()//2, gravity_toggle.centery - gravity_text.get_height()//2))
+            
+            # Ball speed slider
+            speed_label = small_font.render(f"Ball Speed: {ball_speed_multiplier:.1f}x", True, white)
+            screen.blit(speed_label, (width//2 - speed_label.get_width()//2, speed_slider.top - 30))
+            pygame.draw.rect(screen, gray, speed_slider)
+            pygame.draw.rect(screen, white, speed_handle)
+            
+            # Bounce dampening slider
+            bounce_label = small_font.render(f"Bounce Energy: {bounce_dampening:.2f}", True, white)
+            screen.blit(bounce_label, (width//2 - bounce_label.get_width()//2, bounce_slider.top - 30))
+            pygame.draw.rect(screen, gray, bounce_slider)
+            pygame.draw.rect(screen, white, bounce_handle)
+            
+            # Paddle rebound strength slider
+            rebound_label = small_font.render(f"Paddle Power: {paddle_rebound_strength:.2f}", True, white)
+            screen.blit(rebound_label, (width//2 - rebound_label.get_width()//2, rebound_slider.top - 30))
+            pygame.draw.rect(screen, gray, rebound_slider)
+            pygame.draw.rect(screen, white, rebound_handle)
+            
+            # Back button
+            pygame.draw.rect(screen, gray, back_button)
+            back_text = small_font.render("Back to Main Menu", True, black)
+            screen.blit(back_text, (back_button.centerx - back_text.get_width()//2, back_button.centery - back_text.get_height()//2))
+            
+        # Game logic (only executes if game is started, not over, and not paused)
+        elif not game_over and not paused:
+            # Additional controls for practice mode
+            if practice_mode:
+                keys = pygame.key.get_pressed()
+                # Reset ball position with spacebar
+                if keys[K_SPACE]:
+                    reset_ball()
+                # Adjust ball speed with additional keys
     
     if player_id is None:
         # Display connection error and wait before returning

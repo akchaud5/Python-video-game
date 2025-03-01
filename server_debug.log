@@ -1,0 +1,9 @@
+[2025-02-28 21:35:20] Server debug log started
+[2025-02-28 21:35:20] Platform: macOS-15.3.1-arm64-arm-64bit-Mach-O
+[2025-02-28 21:35:20] Python version: 3.13.2
+[2025-02-28 21:35:20] Initializing server with host='', port=5555
+[2025-02-28 21:35:20] Socket successfully bound to *:5555
+[2025-02-28 21:35:20] Server listening on port 5555, waiting for connections...
+[2025-02-28 21:35:20] Server initialized, starting accept loop...
+[2025-02-28 21:35:20] Server starting main accept loop on port 5555
+[2025-02-28 21:35:20] Waiting for a new connection...
