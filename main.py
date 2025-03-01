@@ -354,21 +354,29 @@ def run_multiplayer_mode():
     title_text = multiplayer_font.render("Multiplayer Setup", True, white)
     screen.blit(title_text, (width//2 - title_text.get_width()//2, height//6))
     
+    # More spaced-out layout for instructions and input
     instruction_text = multiplayer_small_font.render("Enter Server IP (or press Enter for localhost):", True, white)
     screen.blit(instruction_text, (width//2 - instruction_text.get_width()//2, height//3))
     
-    # Display the suggested IP if we found one
+    # Display the suggested IP if we found one (move down for spacing)
+    y_offset = height//3 + 50
     if suggested_ip:
         suggestion_text = multiplayer_small_font.render(f"Suggested IP: {suggested_ip}", True, (0, 255, 255))
-        screen.blit(suggestion_text, (width//2 - suggestion_text.get_width()//2, height//3 + 40))
+        screen.blit(suggestion_text, (width//2 - suggestion_text.get_width()//2, y_offset))
+        y_offset += 50
+    else:
+        y_offset += 20
     
-    # Display connection explanation
+    # Display connection explanations with more spacing
     connect_text1 = multiplayer_small_font.render("For same computer: use 'localhost'", True, (200, 200, 200))
-    connect_text2 = multiplayer_small_font.render("For different computers: use server's network IP", True, (200, 200, 200))
-    screen.blit(connect_text1, (width//2 - connect_text1.get_width()//2, height//3 + 80))
-    screen.blit(connect_text2, (width//2 - connect_text2.get_width()//2, height//3 + 110))
+    screen.blit(connect_text1, (width//2 - connect_text1.get_width()//2, y_offset))
     
-    input_rect = pygame.Rect(width//2 - 140, height//2 - 20, 280, 40)
+    y_offset += 40
+    connect_text2 = multiplayer_small_font.render("For different computers: use server's network IP", True, (200, 200, 200))
+    screen.blit(connect_text2, (width//2 - connect_text2.get_width()//2, y_offset))
+    
+    # Move input box further down
+    input_rect = pygame.Rect(width//2 - 140, y_offset + 70, 280, 40)
     pygame.draw.rect(screen, white, input_rect)
     
     # Get IP input
@@ -418,18 +426,71 @@ def run_multiplayer_mode():
     player_id = n.player_id
     
     if player_id is None:
-        print("Failed to connect to server.")
+        # Display connection error and wait before returning
+        error_text = status_font.render("Failed to connect to server.", True, (255, 100, 100))
+        hint_text = status_font.render("Check IP address and ensure server is running.", True, (255, 200, 100))
+        back_text = status_font.render("Press any key to return to menu...", True, white)
+        
+        screen.fill(black)
+        screen.blit(error_text, (width//2 - error_text.get_width()//2, height//2 - 50))
+        screen.blit(hint_text, (width//2 - hint_text.get_width()//2, height//2))
+        screen.blit(back_text, (width//2 - back_text.get_width()//2, height//2 + 100))
+        pygame.display.flip()
+        
+        # Wait for keypress before returning
+        waiting = True
+        while waiting:
+            for event in pygame.event.get():
+                if event.type == QUIT:
+                    pygame.quit()
+                    sys.exit()
+                if event.type == KEYDOWN:
+                    waiting = False
+        
         return
         
+    # Success message
+    success_text = status_font.render(f"Connected to server as Player {player_id+1}", True, (100, 255, 100))
+    ready_text = status_font.render("Sending ready signal...", True, white)
+    screen.fill(black)
+    screen.blit(success_text, (width//2 - success_text.get_width()//2, height//2 - 25))
+    screen.blit(ready_text, (width//2 - ready_text.get_width()//2, height//2 + 25))
+    pygame.display.flip()
+    
     print(f"Connected to server as Player {player_id}")
     
     # Tell server we're ready
     game_state = n.send("ready")
     if game_state is None:
-        print("Failed to communicate with server")
+        # Display communication error
+        error_text = status_font.render("Failed to communicate with server", True, (255, 100, 100))
+        back_text = status_font.render("Press any key to return to menu...", True, white)
+        
+        screen.fill(black)
+        screen.blit(error_text, (width//2 - error_text.get_width()//2, height//2))
+        screen.blit(back_text, (width//2 - back_text.get_width()//2, height//2 + 100))
+        pygame.display.flip()
+        
+        # Wait for keypress before returning
+        waiting = True
+        while waiting:
+            for event in pygame.event.get():
+                if event.type == QUIT:
+                    pygame.quit()
+                    sys.exit()
+                if event.type == KEYDOWN:
+                    waiting = False
+                    
         n.disconnect()
         return
         
+    # Waiting for opponent screen
+    if game_state.winner == "" and not game_state.game_active:
+        waiting_text = status_font.render("Connected! Waiting for opponent...", True, (100, 255, 100))
+        screen.fill(black)
+        screen.blit(waiting_text, (width//2 - waiting_text.get_width()//2, height//2))
+        pygame.display.flip()
+    
     # Main game loop for multiplayer
     multiplayer_running = True
     multiplayer_clock = pygame.time.Clock()
