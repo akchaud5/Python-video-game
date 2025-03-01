@@ -1,0 +1,3443 @@
+[2025-02-28 21:42:08] Network debug log started
+[2025-02-28 21:42:08] Attempting to connect to 10.127.41.32:5555
+[2025-02-28 21:42:08] Socket details: <socket.socket fd=10, family=2, type=1, proto=0, laddr=('0.0.0.0', 0)>
+[2025-02-28 21:42:08] Resolved server IPs: ('10.127.41.32', [], ['10.127.41.32'])
+[2025-02-28 21:42:08] Connection established
+[2025-02-28 21:42:08] Waiting for initial data from server...
+[2025-02-28 21:42:08] Received 5 bytes of data
+[2025-02-28 21:42:08] Successfully unpickled data: player_id = 0
+[2025-02-28 21:42:08] Sending data to server: ready
+[2025-02-28 21:42:08] Pickled data size: 20 bytes
+[2025-02-28 21:42:08] Data sent, waiting for response...
+[2025-02-28 21:42:08] Received 270 bytes from server
+[2025-02-28 21:42:08] Successfully unpickled server response
+[2025-02-28 21:42:08] Sending data to server: 250
+[2025-02-28 21:42:08] Pickled data size: 5 bytes
+[2025-02-28 21:42:08] Data sent, waiting for response...
+[2025-02-28 21:42:08] Received 270 bytes from server
+[2025-02-28 21:42:08] Successfully unpickled server response
+[2025-02-28 21:42:08] Sending data to server: 250
+[2025-02-28 21:42:08] Pickled data size: 5 bytes
+[2025-02-28 21:42:08] Data sent, waiting for response...
+[2025-02-28 21:42:08] Received 270 bytes from server
+[2025-02-28 21:42:08] Successfully unpickled server response
+[2025-02-28 21:42:08] Sending data to server: 250
+[2025-02-28 21:42:08] Pickled data size: 5 bytes
+[2025-02-28 21:42:08] Data sent, waiting for response...
+[2025-02-28 21:42:08] Received 270 bytes from server
+[2025-02-28 21:42:08] Successfully unpickled server response
+[2025-02-28 21:42:08] Sending data to server: 250
+[2025-02-28 21:42:08] Pickled data size: 5 bytes
+[2025-02-28 21:42:08] Data sent, waiting for response...
+[2025-02-28 21:42:08] Received 270 bytes from server
+[2025-02-28 21:42:08] Successfully unpickled server response
+[2025-02-28 21:42:08] Sending data to server: 250
+[2025-02-28 21:42:08] Pickled data size: 5 bytes
+[2025-02-28 21:42:08] Data sent, waiting for response...
+[2025-02-28 21:42:08] Received 270 bytes from server
+[2025-02-28 21:42:08] Successfully unpickled server response
+[2025-02-28 21:42:08] Sending data to server: 250
+[2025-02-28 21:42:08] Pickled data size: 5 bytes
+[2025-02-28 21:42:08] Data sent, waiting for response...
+[2025-02-28 21:42:08] Received 270 bytes from server
+[2025-02-28 21:42:08] Successfully unpickled server response
+[2025-02-28 21:42:08] Sending data to server: 250
+[2025-02-28 21:42:08] Pickled data size: 5 bytes
+[2025-02-28 21:42:08] Data sent, waiting for response...
+[2025-02-28 21:42:08] Received 270 bytes from server
+[2025-02-28 21:42:08] Successfully unpickled server response
+[2025-02-28 21:42:08] Sending data to server: 250
+[2025-02-28 21:42:08] Pickled data size: 5 bytes
+[2025-02-28 21:42:08] Data sent, waiting for response...
+[2025-02-28 21:42:08] Received 270 bytes from server
+[2025-02-28 21:42:08] Successfully unpickled server response
+[2025-02-28 21:42:08] Sending data to server: 250
+[2025-02-28 21:42:08] Pickled data size: 5 bytes
+[2025-02-28 21:42:08] Data sent, waiting for response...
+[2025-02-28 21:42:08] Received 270 bytes from server
+[2025-02-28 21:42:08] Successfully unpickled server response
+[2025-02-28 21:42:08] Sending data to server: 250
+[2025-02-28 21:42:08] Pickled data size: 5 bytes
+[2025-02-28 21:42:08] Data sent, waiting for response...
+[2025-02-28 21:42:08] Received 270 bytes from server
+[2025-02-28 21:42:08] Successfully unpickled server response
+[2025-02-28 21:42:08] Sending data to server: 250
+[2025-02-28 21:42:08] Pickled data size: 5 bytes
+[2025-02-28 21:42:08] Data sent, waiting for response...
+[2025-02-28 21:42:08] Received 270 bytes from server
+[2025-02-28 21:42:08] Successfully unpickled server response
+[2025-02-28 21:42:08] Sending data to server: 250
+[2025-02-28 21:42:08] Pickled data size: 5 bytes
+[2025-02-28 21:42:08] Data sent, waiting for response...
+[2025-02-28 21:42:08] Received 270 bytes from server
+[2025-02-28 21:42:08] Successfully unpickled server response
+[2025-02-28 21:42:08] Sending data to server: 250
+[2025-02-28 21:42:08] Pickled data size: 5 bytes
+[2025-02-28 21:42:08] Data sent, waiting for response...
+[2025-02-28 21:42:08] Received 270 bytes from server
+[2025-02-28 21:42:08] Successfully unpickled server response
+[2025-02-28 21:42:08] Sending data to server: 250
+[2025-02-28 21:42:08] Pickled data size: 5 bytes
+[2025-02-28 21:42:08] Data sent, waiting for response...
+[2025-02-28 21:42:08] Received 270 bytes from server
+[2025-02-28 21:42:08] Successfully unpickled server response
+[2025-02-28 21:42:08] Sending data to server: 250
+[2025-02-28 21:42:08] Pickled data size: 5 bytes
+[2025-02-28 21:42:08] Data sent, waiting for response...
+[2025-02-28 21:42:08] Received 270 bytes from server
+[2025-02-28 21:42:08] Successfully unpickled server response
+[2025-02-28 21:42:08] Sending data to server: 250
+[2025-02-28 21:42:08] Pickled data size: 5 bytes
+[2025-02-28 21:42:08] Data sent, waiting for response...
+[2025-02-28 21:42:08] Received 270 bytes from server
+[2025-02-28 21:42:08] Successfully unpickled server response
+[2025-02-28 21:42:08] Sending data to server: 250
+[2025-02-28 21:42:08] Pickled data size: 5 bytes
+[2025-02-28 21:42:08] Data sent, waiting for response...
+[2025-02-28 21:42:08] Received 270 bytes from server
+[2025-02-28 21:42:08] Successfully unpickled server response
+[2025-02-28 21:42:08] Sending data to server: 250
+[2025-02-28 21:42:08] Pickled data size: 5 bytes
+[2025-02-28 21:42:08] Data sent, waiting for response...
+[2025-02-28 21:42:08] Received 270 bytes from server
+[2025-02-28 21:42:08] Successfully unpickled server response
+[2025-02-28 21:42:08] Sending data to server: 250
+[2025-02-28 21:42:08] Pickled data size: 5 bytes
+[2025-02-28 21:42:08] Data sent, waiting for response...
+[2025-02-28 21:42:08] Received 270 bytes from server
+[2025-02-28 21:42:08] Successfully unpickled server response
+[2025-02-28 21:42:08] Sending data to server: 250
+[2025-02-28 21:42:08] Pickled data size: 5 bytes
+[2025-02-28 21:42:08] Data sent, waiting for response...
+[2025-02-28 21:42:08] Received 270 bytes from server
+[2025-02-28 21:42:08] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:09] Sending data to server: 250
+[2025-02-28 21:42:09] Pickled data size: 5 bytes
+[2025-02-28 21:42:09] Data sent, waiting for response...
+[2025-02-28 21:42:09] Received 270 bytes from server
+[2025-02-28 21:42:09] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:10] Sending data to server: 250
+[2025-02-28 21:42:10] Pickled data size: 5 bytes
+[2025-02-28 21:42:10] Data sent, waiting for response...
+[2025-02-28 21:42:10] Received 270 bytes from server
+[2025-02-28 21:42:10] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:11] Sending data to server: 250
+[2025-02-28 21:42:11] Pickled data size: 5 bytes
+[2025-02-28 21:42:11] Data sent, waiting for response...
+[2025-02-28 21:42:11] Received 270 bytes from server
+[2025-02-28 21:42:11] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:12] Sending data to server: 250
+[2025-02-28 21:42:12] Pickled data size: 5 bytes
+[2025-02-28 21:42:12] Data sent, waiting for response...
+[2025-02-28 21:42:12] Received 270 bytes from server
+[2025-02-28 21:42:12] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:13] Sending data to server: 250
+[2025-02-28 21:42:13] Pickled data size: 5 bytes
+[2025-02-28 21:42:13] Data sent, waiting for response...
+[2025-02-28 21:42:13] Received 270 bytes from server
+[2025-02-28 21:42:13] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:14] Sending data to server: 250
+[2025-02-28 21:42:14] Pickled data size: 5 bytes
+[2025-02-28 21:42:14] Data sent, waiting for response...
+[2025-02-28 21:42:14] Received 270 bytes from server
+[2025-02-28 21:42:14] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:15] Sending data to server: 250
+[2025-02-28 21:42:15] Pickled data size: 5 bytes
+[2025-02-28 21:42:15] Data sent, waiting for response...
+[2025-02-28 21:42:15] Received 270 bytes from server
+[2025-02-28 21:42:15] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:16] Sending data to server: 250
+[2025-02-28 21:42:16] Pickled data size: 5 bytes
+[2025-02-28 21:42:16] Data sent, waiting for response...
+[2025-02-28 21:42:16] Received 270 bytes from server
+[2025-02-28 21:42:16] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:17] Sending data to server: 250
+[2025-02-28 21:42:17] Pickled data size: 5 bytes
+[2025-02-28 21:42:17] Data sent, waiting for response...
+[2025-02-28 21:42:17] Received 270 bytes from server
+[2025-02-28 21:42:17] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:18] Sending data to server: 250
+[2025-02-28 21:42:18] Pickled data size: 5 bytes
+[2025-02-28 21:42:18] Data sent, waiting for response...
+[2025-02-28 21:42:18] Received 270 bytes from server
+[2025-02-28 21:42:18] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:19] Sending data to server: 250
+[2025-02-28 21:42:19] Pickled data size: 5 bytes
+[2025-02-28 21:42:19] Data sent, waiting for response...
+[2025-02-28 21:42:19] Received 270 bytes from server
+[2025-02-28 21:42:19] Successfully unpickled server response
+[2025-02-28 21:42:20] Sending data to server: 250
+[2025-02-28 21:42:20] Pickled data size: 5 bytes
+[2025-02-28 21:42:20] Data sent, waiting for response...
+[2025-02-28 21:42:20] Received 270 bytes from server
+[2025-02-28 21:42:20] Successfully unpickled server response
+[2025-02-28 21:42:20] Sending data to server: 250
+[2025-02-28 21:42:20] Pickled data size: 5 bytes
+[2025-02-28 21:42:20] Data sent, waiting for response...
+[2025-02-28 21:42:20] Received 270 bytes from server
+[2025-02-28 21:42:20] Successfully unpickled server response
+[2025-02-28 21:42:20] Sending data to server: 250
+[2025-02-28 21:42:20] Pickled data size: 5 bytes
+[2025-02-28 21:42:20] Data sent, waiting for response...
+[2025-02-28 21:42:20] Received 270 bytes from server
+[2025-02-28 21:42:20] Successfully unpickled server response
+[2025-02-28 21:42:20] Sending data to server: 250
+[2025-02-28 21:42:20] Pickled data size: 5 bytes
+[2025-02-28 21:42:20] Data sent, waiting for response...
+[2025-02-28 21:42:20] Received 270 bytes from server
+[2025-02-28 21:42:20] Successfully unpickled server response
+[2025-02-28 21:42:20] Sending data to server: 250
+[2025-02-28 21:42:20] Pickled data size: 5 bytes
+[2025-02-28 21:42:20] Data sent, waiting for response...
+[2025-02-28 21:42:20] Received 270 bytes from server
+[2025-02-28 21:42:20] Successfully unpickled server response
+[2025-02-28 21:42:20] Sending data to server: 250
+[2025-02-28 21:42:20] Pickled data size: 5 bytes
+[2025-02-28 21:42:20] Data sent, waiting for response...
+[2025-02-28 21:42:20] Received 270 bytes from server
+[2025-02-28 21:42:20] Successfully unpickled server response
+[2025-02-28 21:42:20] Sending data to server: 250
+[2025-02-28 21:42:20] Pickled data size: 5 bytes
+[2025-02-28 21:42:20] Data sent, waiting for response...
+[2025-02-28 21:42:20] Received 270 bytes from server
+[2025-02-28 21:42:20] Successfully unpickled server response
+[2025-02-28 21:42:20] Sending data to server: 250
+[2025-02-28 21:42:20] Pickled data size: 5 bytes
+[2025-02-28 21:42:20] Data sent, waiting for response...
+[2025-02-28 21:42:20] Received 270 bytes from server
+[2025-02-28 21:42:20] Successfully unpickled server response
+[2025-02-28 21:42:20] Sending data to server: 250
+[2025-02-28 21:42:20] Pickled data size: 5 bytes
+[2025-02-28 21:42:20] Data sent, waiting for response...
+[2025-02-28 21:42:20] Received 270 bytes from server
+[2025-02-28 21:42:20] Successfully unpickled server response
+[2025-02-28 21:42:20] Sending data to server: 250
+[2025-02-28 21:42:20] Pickled data size: 5 bytes
+[2025-02-28 21:42:20] Data sent, waiting for response...
+[2025-02-28 21:42:20] Received 270 bytes from server
+[2025-02-28 21:42:20] Successfully unpickled server response
+[2025-02-28 21:42:20] Sending data to server: 250
+[2025-02-28 21:42:20] Pickled data size: 5 bytes
+[2025-02-28 21:42:20] Data sent, waiting for response...
+[2025-02-28 21:42:20] Received 270 bytes from server
+[2025-02-28 21:42:20] Successfully unpickled server response
+[2025-02-28 21:42:20] Sending data to server: 250
+[2025-02-28 21:42:20] Pickled data size: 5 bytes
+[2025-02-28 21:42:20] Data sent, waiting for response...
+[2025-02-28 21:42:20] Received 270 bytes from server
+[2025-02-28 21:42:20] Successfully unpickled server response
+[2025-02-28 21:42:20] Sending data to server: 250
+[2025-02-28 21:42:20] Pickled data size: 5 bytes
+[2025-02-28 21:42:20] Data sent, waiting for response...
+[2025-02-28 21:42:20] Received 270 bytes from server
+[2025-02-28 21:42:20] Successfully unpickled server response
+[2025-02-28 21:42:20] Sending data to server: 250
+[2025-02-28 21:42:20] Pickled data size: 5 bytes
+[2025-02-28 21:42:20] Data sent, waiting for response...
+[2025-02-28 21:42:20] Received 270 bytes from server
+[2025-02-28 21:42:20] Successfully unpickled server response
+[2025-02-28 21:42:20] Sending data to server: 250
+[2025-02-28 21:42:20] Pickled data size: 5 bytes
+[2025-02-28 21:42:20] Data sent, waiting for response...
+[2025-02-28 21:42:20] Received 270 bytes from server
+[2025-02-28 21:42:20] Successfully unpickled server response
+[2025-02-28 21:42:20] Sending data to server: 250
+[2025-02-28 21:42:20] Pickled data size: 5 bytes
+[2025-02-28 21:42:20] Data sent, waiting for response...
+[2025-02-28 21:42:20] Received 270 bytes from server
+[2025-02-28 21:42:20] Successfully unpickled server response
+[2025-02-28 21:42:20] Sending data to server: 250
+[2025-02-28 21:42:20] Pickled data size: 5 bytes
+[2025-02-28 21:42:20] Data sent, waiting for response...
+[2025-02-28 21:42:20] Received 270 bytes from server
+[2025-02-28 21:42:20] Successfully unpickled server response
+[2025-02-28 21:42:20] Sending data to server: 250
+[2025-02-28 21:42:20] Pickled data size: 5 bytes
+[2025-02-28 21:42:20] Data sent, waiting for response...
+[2025-02-28 21:42:20] Received 270 bytes from server
+[2025-02-28 21:42:20] Successfully unpickled server response
+[2025-02-28 21:42:20] Sending data to server: 250
+[2025-02-28 21:42:20] Pickled data size: 5 bytes
+[2025-02-28 21:42:20] Data sent, waiting for response...
+[2025-02-28 21:42:20] Received 270 bytes from server
+[2025-02-28 21:42:20] Successfully unpickled server response
